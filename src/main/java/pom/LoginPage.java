@@ -15,7 +15,7 @@ public class LoginPage   {
     By password=By.xpath("(//form[@name='login']//input)[22]");
     By Login=By.xpath("//input[@type='submit']");
     
-			
+	//Adding comment for gitdemo 		
 	public LoginPage(WebDriver driver2) {
 		// TODO Auto-generated constructor stub
 		this.driver=driver2;
